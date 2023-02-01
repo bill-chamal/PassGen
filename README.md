@@ -3,11 +3,11 @@
 
 ![](img/img1.png)
 
-Created with <a href="https://www.jetbrains.com/idea/">IntelliJ</a> 
+<p>Created with <a href="https://www.jetbrains.com/idea/">IntelliJ</a></p>
 
-##About
+<h2>About</h2>
 <p>Author: Bill Chamalidis (bill-chamal)</p>
-University of Macedonia
+<p>University of Macedonia - IS<p>
 <p>Copyright (c). All rights Reserved</p>
 <p>This program is free software: you can redistribute it and/or modify
     it under the terms of the <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GNU</a> General Public License as published by

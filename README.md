@@ -1,7 +1,7 @@
 # PassGen
 <p><h2>An Password Generator </h2></p>
 
-![](img/Screenshot 2023-02-01 224854.png)
+![](img/img1.png)
 
 
 <p><h2>license:</h2></p>

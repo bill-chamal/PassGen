@@ -5,6 +5,15 @@
 
 <p>Created with <a href="https://www.jetbrains.com/idea/">IntelliJ</a>.</p>
 
+<h2>How to create JAR file:</h2>
+-Create a file called "MANIFEST.MF" and add the following (with the empty lines)
+<c>Manifest-Version: 1.0
+Main-Class: Main
+
+</c>
+-From the terminal create the classes with javac (java->class)
+-Then run <c>jar cfm PassGen.jar MANIFEST.MF (all the classes)</c>
+
 <h2>About:</h2>
 <p><b>Author: </b><a href="https://github.com/bill-chamal">Bill Chamalidis</a> University of Macedonia</p>
 <p>Created: 1 Feb 2023</p>

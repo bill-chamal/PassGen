@@ -6,7 +6,7 @@
 <p>Created with <a href="https://www.jetbrains.com/idea/">IntelliJ</a>.</p>
 
 <h2>How to create JAR file:</h2>
-<p>Create a file called "MANIFEST.MF" and add the following (with the empty lines)   </p>
+<p>Create a file called "MANIFEST.MF" and add the following (with a empty line at the end)   </p>
   
 ```console
   

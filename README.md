@@ -6,7 +6,7 @@
 <p>Created with <a href="https://www.jetbrains.com/idea/">IntelliJ</a>.</p>
 
 <h2>About</h2>
-<p><b>Author: </b><a href="https://github.com/bill-chamal">Bill Chamalidis University of Macedonia - IS</a></p>
+<p><b>Author: </b><a href="https://github.com/bill-chamal">Bill Chamalidis</a> University of Macedonia</p>
 <p>Created: 1 Feb 2023</p>
 <p>Version: 0.0.1</p>
 <p>Copyright (c). All rights Reserved</p>

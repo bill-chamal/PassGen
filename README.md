@@ -6,18 +6,19 @@
 <p>Created with <a href="https://www.jetbrains.com/idea/">IntelliJ</a>.</p>
 
 <h2>How to create JAR file:</h2>
-<p>Create a file called "MANIFEST.MF" and add the following (with a empty line at the end)   </p>
+
+- <p>Create a file called "MANIFEST.MF" and add to the file the following (with a empty line at the end)</p>
   
 ```console
   
 Manifest-Version: 1.0
 Main-Class: Main
-
+ 
 
 ```
   
-<p>From the terminal create the classes with javac (java->class)</p>
-<p>Then run</p>
+- <p>From the terminal create the classes with javac (java->class)</p>
+- <p>Then run from the terminal</p>
 
 ```console
 jar cfm PassGen.jar MANIFEST.MF (all the classes plus the action listeners)

@@ -30,4 +30,4 @@ jar cfm PassGen.jar MANIFEST.MF (all the classes plus the action listeners)
 <p><b>Created:</b> 1 Feb 2023</p>
 <p><b>Version:</b> 0.0.1</p>
 <h2>license:</h2>
-<p>This program is free software: you can redistribute it and/or modify it under the terms of the <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GNU</a> General Public License as published by the Free Software Foundation, either version 3 of the License, or any later version.</p>
+<p><a href="https://mit-license.org/">The MIT License (MIT)</a></p>

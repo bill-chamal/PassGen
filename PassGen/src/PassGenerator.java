@@ -13,10 +13,10 @@ public class PassGenerator {
         this.upperCase = uppcase;
         this.numbers = numbers;
         this.symbols = symbols;
-        CreateList();
+        createList();
     }
 
-    private void CreateList() {
+    private void createList() {
         if (lowercase) {
             randsymbList.add(new RandSymbol(97, 122));
             bound++;
@@ -31,23 +31,23 @@ public class PassGenerator {
         }
         if (symbols) {
             randsymbList.add(new RandSymbol(33, 47));
-            randsymbList.getLast().AddBound(58,64);
-            randsymbList.getLast().AddBound(91,95);
+            randsymbList.getLast().addBound(58,64);
+            randsymbList.getLast().addBound(91,95);
             bound++;
         }
     }
 
-    public String GetRandCharacter() {
+    public String getRandCharacter() {
         if (!randsymbList.isEmpty())
-            return randsymbList.get(rand.nextInt(bound)).GetRandSymbol(); // Equal possibilities
+            return randsymbList.get(rand.nextInt(bound)).getRandSymbol(); // Equal possibilities
         else
             return "";
     }
 
-    public String GetPassword() {
+    public String getPassword() {
         StringBuilder passwd = new StringBuilder();
         for (int i = 0; i < length; i++)
-            passwd.append(GetRandCharacter());
+            passwd.append(getRandCharacter());
         return passwd.toString();
     }
 
@@ -59,11 +59,11 @@ public class PassGenerator {
             range.add(new Integer[]{low, high});
         }
 
-        public void AddBound(int low, int high){
+        public void addBound(int low, int high){
             range.add(new Integer[]{low, high});
         }
 
-        public String GetRandSymbol() {
+        public String getRandSymbol() {
             int index = rand.nextInt(range.size());
             // get a random number between 2 numbers
             char ch = (char)(rand.nextInt(range.get(index)[1] - range.get(index)[0]) + range.get(index)[0]);

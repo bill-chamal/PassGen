@@ -35,7 +35,7 @@ public class MainWindow extends JFrame {
         menuFile = new JMenu("File");
         menuEdit = new JMenu("Edit");
         menuHelp = new JMenu("Help");
-        menuItemSave = new JMenuItem("Save");
+        menuItemSave = new JMenuItem("Save to file");
         menuItemAbout = new JMenuItem("About");
         menuItemExit = new JMenuItem("Exit");
         menuItemClear = new JMenuItem("Clear All Text");
@@ -45,7 +45,7 @@ public class MainWindow extends JFrame {
         // -> Panels
         mainPanel = new JPanel(new BorderLayout());
         passgenPanel = new JPanel(new BorderLayout());
-        configPanel = new JPanel();
+        configPanel = new JPanel(new FlowLayout());
         lblPanel = new JPanel();
         btnPanel = new JPanel(new GridLayout());
 
@@ -82,7 +82,7 @@ public class MainWindow extends JFrame {
         lblPanel.add(txtBoxLength);
         configPanel.add(lblPanel);
         mainPanel.add(passgenPanel, BorderLayout.CENTER);
-        mainPanel.add(configPanel, BorderLayout.SOUTH);
+        mainPanel.add(configPanel, BorderLayout.PAGE_END);
 
         // Configure the JFrame window
         this.setContentPane(mainPanel);
@@ -102,7 +102,7 @@ public class MainWindow extends JFrame {
                 int bounds = Integer.parseInt(txtBoxLength.getText());
                 PassGenerator passGenerator = new PassGenerator(bounds, ckbxLower.isSelected(), ckbxUpper.isSelected(), ckbxNum.isSelected(),
                         ckbxSymbols.isSelected());
-                txtBoxPasswd.setText(passGenerator.GetPassword());
+                txtBoxPasswd.setText(passGenerator.getPassword());
             }
             else if(e.getSource() == btnCopy){
                 Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();

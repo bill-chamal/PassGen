@@ -1,11 +1,11 @@
 # PassGen
-<p><h2>An Password Generator Java - Swing</h2></p>
+## An Password Generator Java - Swing
 
 ![](img/img1.png)
 
 <p>Created using <a href="https://www.jetbrains.com/idea/">IntelliJ</a> IDE.</p>
 
-<h2>How to create JAR file:</h2>
+## How to create JAR file: 
 
 - <p>Create a file called "MANIFEST.MF" and add to the file the following (with a empty line at the end)</p>
   
@@ -25,12 +25,15 @@ jar cfm PassGen.jar MANIFEST.MF (all the classes plus the action listeners)
 ```
 
 
-<h2>About:</h2>
+# About: 
 <p><b>Author: </b><a href="https://github.com/bill-chamal">Bill Chamalidis</a> University of Macedonia</p>
 <p><b>Created:</b> 1 Feb 2023</p>
 <p><b>Version:</b> 0.0.1</p>
-<h2>license:</h2>
-<h3><a href="https://mit-license.org/">The MIT License (MIT)</a></h3>
+
+
+
+# <a href="https://mit-license.org/">The MIT License (MIT)</a>
+
 <p>Copyright © 2023 Bill Chamalidis</p>
 
 <p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
